@@ -1,3 +1,4 @@
 # Java-Marathon
  
-Neste repositório guardarei todo meu conhecimento aprendido em Java, desde o básico até o mais avançado.
+Dentro da pasta "src" contém os arquivos onde escrevi meus códigos, na pasta "introduction" tem os códigos básicos da linguagem Java,
+como: tipos primitivos, estruturas condicionais, estruturas de repetição e arrays.
