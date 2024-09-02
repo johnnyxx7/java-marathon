@@ -28,7 +28,7 @@ public class Aula04Operadores {
         System.out.println("isDezIgualDez " + isDezIgualDez);
         System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
 
-        // && (AND) || (OR  )
+        // && (AND) || (OR)
 
         int idade = 29;
         float salario = 3500F;
