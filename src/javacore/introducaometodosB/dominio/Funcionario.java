@@ -29,6 +29,7 @@ public class Funcionario {
         for (double salario : salarios) {
             media += salario;
         }
+
         media /= salarios.length;
         System.out.println("Média salárial: R$" + media);
     }
