@@ -7,12 +7,12 @@ public class CarroTest01 {
         Carro carro1 = new Carro();
         Carro carro2 = new Carro();
 
-        carro1.nome = "Lamborghini";
-        carro1.modelo = "Veneno";
+        carro1.nome = "Ferrari";
+        carro1.modelo = "467";
         carro1.ano = 2020;
 
-        carro2.nome = "Porsche";
-        carro2.modelo = "Carrera GT";
+        carro2.nome = "Mercedes-Benz";
+        carro2.modelo = "CLA-250";
         carro2.ano = 2022;
 
         System.out.println("Carro 1");
