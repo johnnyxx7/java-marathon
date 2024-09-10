@@ -1,6 +1,6 @@
-package javacore.introducaometodosB.test;
+package javacore.Bintroducaometodos.test;
 
-import javacore.introducaometodosB.dominio.Funcionario;
+import javacore.Bintroducaometodos.dominio.Funcionario;
 
 public class FuncionarioTest01 {
     public static void main(String[] args) {

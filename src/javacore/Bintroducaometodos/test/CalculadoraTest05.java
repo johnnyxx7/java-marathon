@@ -1,6 +1,6 @@
-package javacore.introducaometodosB.test;
+package javacore.Bintroducaometodos.test;
 
-import javacore.introducaometodosB.dominio.Calculadora;
+import javacore.Bintroducaometodos.dominio.Calculadora;
 
 public class CalculadoraTest05 {
     public static void main(String[] args) {

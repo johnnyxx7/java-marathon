@@ -1,11 +1,10 @@
-package javacore.introducaometodosB.dominio;
+package javacore.Bintroducaometodos.dominio;
 
 public class Funcionario {
     private String nome;
     private int idade;
     private double[] salarios;
-    private double media = 0;
-
+    private double media;
     public void imprime(Funcionario funcionario) {
         System.out.println("-------------");
         System.out.println("Nome: " + this.nome);
@@ -45,9 +44,6 @@ public class Funcionario {
         this.salarios = salarios;
     }
 
-    public void setMedia(double media) {
-        this.media = media;
-    }
 
     public double getMedia() {
         return media;

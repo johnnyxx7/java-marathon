@@ -1,4 +1,4 @@
-package javacore.introducaometodosB.dominio;
+package javacore.Bintroducaometodos.dominio;
 
 public class Calculadora {
 

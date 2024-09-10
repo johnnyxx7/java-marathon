@@ -1,7 +1,7 @@
-package javacore.introducaometodosB.test;
+package javacore.Bintroducaometodos.test;
 
-import javacore.introducaometodosB.dominio.Estudante;
-import javacore.introducaometodosB.dominio.ImpressoraEstudante;
+import javacore.Bintroducaometodos.dominio.Estudante;
+import javacore.Bintroducaometodos.dominio.ImpressoraEstudante;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {

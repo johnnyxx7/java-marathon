@@ -1,6 +1,6 @@
-package javacore.introducaoclassesA.test;
+package javacore.Aintroducaoclasses.test;
 
-import javacore.introducaoclassesA.dominio.Professor;
+import javacore.Aintroducaoclasses.dominio.Professor;
 
 public class ProfessorTest01 {
     public static void main(String[] args) {
