@@ -13,9 +13,9 @@ public class Carro {
 
     public void imprime() {
         System.out.println("--------------------");
-        System.out.println("nome: " + this.nome);
-        System.out.println("velocidade máxima: " + this.velocidadeMaxima);
-        System.out.println("velocidade limite: " + Carro.velocidadeLimite);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Velocidade máxima: " + this.velocidadeMaxima);
+        System.out.println("Velocidade limite: " + Carro.velocidadeLimite);
     }
 
     public static void setVelocidadeLimite(double velocidadeLimite) {
