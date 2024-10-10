@@ -14,4 +14,12 @@ public class Time {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public Jogador[] getJogadores() {
+        return jogadores;
+    }
+
+    public void setJogadores(Jogador[] jogadores) {
+        this.jogadores = jogadores;
+    }
 }
