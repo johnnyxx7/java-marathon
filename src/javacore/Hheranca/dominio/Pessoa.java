@@ -6,6 +6,7 @@ public class Pessoa {
     private Endereco endereco;
 
     public void imprime() {
+        System.out.println("------------------");
         System.out.println("Nome: " + this.nome);
         System.out.println("CPF: " + this.cpf);
         System.out.println("Endereço: " + endereco.getRua() + " CEP: " + endereco.getCep());
