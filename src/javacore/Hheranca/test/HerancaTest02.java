@@ -14,7 +14,7 @@ public class HerancaTest02 {
         // 7 - cada atributo de subclasse é criado e inicializado com valores default  ou o que for passado
         // 8 - bloco de inicialização da subclasse é executado na ordem em que aparece
         // 9 - construtor de subclasse é executado
-        
+
         Funcionario funcionario = new Funcionario("Maysa");
     }
 }
