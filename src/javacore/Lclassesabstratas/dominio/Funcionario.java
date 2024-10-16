@@ -1,6 +1,6 @@
 package javacore.Lclassesabstratas.dominio;
 
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa{
     protected String nome;
     protected double salario;
 
@@ -11,4 +11,9 @@ public abstract class Funcionario {
     }
 
     public abstract void calculaBonus();
+
+    @Override
+    public void imprime() {
+        System.out.println("Imprimindo...");
+    }
 }
