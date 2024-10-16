@@ -1,4 +1,4 @@
-package academy.devdojo.javamarathon.introduction;
+package introduction;
 
 public class Aula01OlaDevDojo {
     // comentário de uma linha
@@ -8,7 +8,6 @@ public class Aula01OlaDevDojo {
        múltiplas linhas
     */
 
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args) {System.out.println("Hello world!");
     }
 }

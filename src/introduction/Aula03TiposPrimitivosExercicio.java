@@ -1,4 +1,4 @@
-package academy.devdojo.javamarathon.introduction;
+package introduction;
 
 public class Aula03TiposPrimitivosExercicio {
     /*
