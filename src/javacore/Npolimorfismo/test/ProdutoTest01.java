@@ -13,4 +13,3 @@ public class ProdutoTest01 {
         CalculadoraImposto.calcularImpostoTomate(tomate);
     }
 }
-    
