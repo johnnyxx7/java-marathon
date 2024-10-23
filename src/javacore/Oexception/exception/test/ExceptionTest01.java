@@ -1,4 +1,4 @@
-package javacore.Oexception.exeption.test;
+package javacore.Oexception.exception.test;
 
 import java.io.File;
 import java.io.IOException;
