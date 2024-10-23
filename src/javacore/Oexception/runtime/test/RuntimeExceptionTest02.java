@@ -13,7 +13,7 @@ public class RuntimeExceptionTest02 {
      * @throws IllegalArgumentException caso parametro b seja 0.
      */
 
-    public static int divisao(int a, int b) throws IllegalArgumentException {
+    public static int divisao(int a, int b) {
         if (b == 0) {
             throw new IllegalArgumentException("Argumento ilegal, não pode ser dividido por zero.");
         }
