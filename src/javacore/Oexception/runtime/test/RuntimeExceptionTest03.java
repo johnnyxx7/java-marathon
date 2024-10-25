@@ -20,7 +20,7 @@ public class RuntimeExceptionTest03 {
 
     public static void abreConexao2() {
         try {
-            System.out.println("Abrindo arquivo.");
+            System.out.println("Abrindo os arquivos.");
             System.out.println("Escrevendo dados no arquivo.");
         } finally {
             System.out.println("Fechando recursos liberados pelo SO.");
