@@ -11,9 +11,13 @@ public class PeriodTest01 {
         Period p2 = Period.ofDays(10);
         Period p3 = Period.ofWeeks(58);
         Period p4 = Period.ofMonths(5);
+        Period p5 = Period.ofYears(5);
         System.out.println(p1);
         System.out.println(p2);
         System.out.println(p3);
         System.out.println(p4);
+        System.out.println(p5);
+        System.out.println(p3.getDays());
+        System.out.println(Period.between(now, now.plusDays(p3.getDays())));
     }
 }
