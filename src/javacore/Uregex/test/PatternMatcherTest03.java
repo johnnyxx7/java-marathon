@@ -3,7 +3,7 @@ package javacore.Uregex.test;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest02 {
+public class PatternMatcherTest03 {
     public static void main(String[] args) {
         // \d -> todos os digitos do texto
         // \D -> tudo o que não for dígito
@@ -11,6 +11,7 @@ public class PatternMatcherTest02 {
         // \S -> todos os caractéres com exceção do branco
         // \w -> de a-z, todos os dígitos, _
         // \W -> tudo o que não estiver incluso no \w
+        // []
 
         String regex = "\\w";
         String texto = "@dsk12dfd_ ";
