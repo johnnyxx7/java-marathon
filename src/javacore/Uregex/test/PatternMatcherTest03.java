@@ -11,7 +11,7 @@ public class PatternMatcherTest03 {
         // \S -> todos os caractéres com exceção do branco
         // \w -> de a-z, todos os dígitos, _
         // \W -> tudo o que não estiver incluso no \w
-        // []
+        // [] -> caracteres específicos
 
         String regex = "\\w";
         String texto = "@dsk12dfd_ ";
