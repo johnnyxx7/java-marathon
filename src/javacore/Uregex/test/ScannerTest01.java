@@ -8,7 +8,15 @@ public class ScannerTest01 {
         Scanner scanner = new Scanner(texto);
         scanner.useDelimiter(",");
         while (scanner.hasNext()) {
-            System.out.println(scanner.next().trim());
+            if (scanner.hasNextInt()) {
+                int i = scanner.nextInt();
+                System.out.println("int: " + i);
+            } else if (scanner.hasNextBoolean()) {
+                boolean b = scanner.nextBoolean();
+                System.out.println("boolean: " + scanner.nextBoolean());
+            } else {
+                System.out.println(scanner.next());
+            }
         }
     }
 }
