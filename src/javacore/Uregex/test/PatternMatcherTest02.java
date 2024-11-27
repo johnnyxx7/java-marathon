@@ -3,7 +3,7 @@ package javacore.Uregex.test;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest01 {
+public class PatternMatcherTest02 {
     public static void main(String[] args) {
         String regex = "\"ab\"";
         String texto = "abdjaabsab";
